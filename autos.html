@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CARROS DE RENTA</title>
+<style type="text/css">
+<!--
+#galeria1 {
+	margin: auto;
+	height: 100px;
+	width: 600px;
+	border: 1px solido #000066;
+}
+#contenedor {
+	margin: auto;
+	padding: 0px;
+	height: 400px;
+	width: 600px;
+	border: 1px solid #000033;
+}
+#contenedor {
+	height: 400px;
+	width: 600px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	border: 1px solid #003399;
+}
+#carro1 {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #000066;
+	position: absolute;
+}
+#carro1 {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #000066;
+	position: absolute;
+	visibility: hidden;
+}
+#carro2 {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #000066;
+	position: absolute;
+	visibility: hidden;
+}
+#carro2 {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #000066;
+	position: absolute;
+	visibility: hidden;
+}
+#carro {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #000066;
+	position: absolute;
+	visibility: hidden;
+}
+#carro3 {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #000066;
+	position: absolute;
+	visibility: hidden;
+}
+#paginas {
+	position: absolute;
+	height: 120px;
+	width: 607px;
+	left: 254px;
+	top: 521px;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_showHideLayers() { //v6.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="galeria1">
+  <div align="center"><a href="javascript:;" onmouseover="MM_showHideLayers('carro1','','show')"><img src="imagenes/car.jpeg" width="120" height="100" border="0" /></a><img src="imagenes/mersedes.jpeg" width="120" height="100" onmouseover="MM_showHideLayers('carro2','','show')" />
+    <a href="javascript:;" onmouseover="MM_showHideLayers('carro3','','show')"><img src="imagenes/images (1).jpeg" width="120" height="100" border="0" /></a>
+    
+    <div id="carro2" onmouseout="MM_showHideLayers('carro2','','hide')"><img src="imagenes/mersedes.jpeg" width="600" height="400" /></div>
+  <a href="javascript:;" onmouseout="MM_showHideLayers('carro2','','hide')"></a></div>
+</div>
+<div id="contenedor">
+  <div id="carro3" onmouseout="MM_showHideLayers('carro3','','hide')"><img src="imagenes/images (1).jpeg" width="600" height="400" /></div>
+  <div id="carro1" onmouseout="MM_showHideLayers('carro1','','hide')"><img src="imagenes/car.jpeg" width="600" height="400" /></div>
+  
+
+
+  <div id="paginas">
+    <p><a href="actividad_2.html">pagina principal</a></p>
+    <p><a href="contacto.html">contacto</a></p>
+  </div>
+</div>
+</body>
+</html>
